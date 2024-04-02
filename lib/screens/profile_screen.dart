@@ -23,6 +23,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // ignore: prefer_typing_uninitialized_variables
   var userData;
   int postLen = 0;
+
   bool isLoading = false;
   final userController = Get.put(UserController());
   final authController = Get.put(AuthController());
